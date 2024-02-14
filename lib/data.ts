@@ -32,7 +32,7 @@ import googlecolab from '@/public/images/techstack/google-colab.webp';
 import web from '@/public/images/sertifikat/web.webp';
 import js from '@/public/images/sertifikat/javascript.webp';
 import frontend from '@/public/images/sertifikat/frontend.webp';
-import ml from '@/public/images/sertifikat/machinelearning.webp';
+import itsupport from '@/public/images/sertifikat/ITSupport.webp';
 import kelulusandicoding from '@/public/images/sertifikat/dicodingkelulusan.webp';
 import fundamental from '@/public/images/sertifikat/fundamental.webp';
 
@@ -125,7 +125,7 @@ export const certificatesData = [
     description: 'Successfully completed the final project make a website with layout semantic html, and learn about HTML, CSS, Layout Responsive',
     tags: ['Dicoding', 'HTML', 'CSS', 'responsive'],
     imageUrl: web,
-    url: 'https://www.dicoding.com/certificates/72ZD8YVQ9ZYW',
+    url: 'https://www.dicoding.com/certificates/6RPNVDR65Z2M',
     githubUrl: '',
   },
   {
@@ -142,6 +142,14 @@ export const certificatesData = [
     tags: ['Dicoding', 'Redux', 'React', 'Expert'],
     imageUrl: frontend,
     url: 'https://www.dicoding.com/certificates/1RXY10Q3QPVM',
+    githubUrl: '',
+  },
+  {
+    title: 'Google Coursera It Support',
+    description: ' Get a Google Professional IT Support Certificate has completed five materials developed by Google, whichincludes direct practice-based assessments  ',
+    tags: ['Dicoding', 'Redux', 'React', 'Expert'],
+    imageUrl: itsupport, 
+    url: 'https://coursera.org/verify/professional-cert/7YGUW7YKUTYQ',
     githubUrl: '',
   },
   
