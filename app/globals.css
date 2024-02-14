@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  --line-color: #e5e7eb;
+}
+
+html.dark {
+  --line-color: rgba(255, 255, 255, 0.2);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.borderBlack {
+  @apply border border-black/10;
+}
+
+.btn-project {
+  @apply px-4 py-2 uppercase font-semibold text-white bg-gray-700 border border-gray-700 rounded transition duration-300 cursor-pointer dark:bg-slate-200 dark:text-gray-800 sm:text-sm sm:px-3 sm:py-1 md:mx-0 md:w-full; /* Ubah md:mx-1 menjadi md:mx-0 dan tambahkan md:w-full di sini */
+}
+
+.btn-project:hover {
+  @apply bg-gray-800 border-gray-800 dark:bg-slate-200 dark:border-slate-200;
+}
+
+.btn-project.active2 {
+  @apply bg-gray-900 border-gray-900 dark:bg-slate-200 dark:border-slate-200;
+}
+
+.image-animation {
+  transform: translateY(0); /* Mengatur posisi awal */
+  transition: transform 0.5s; /* Durasi animasi dan jenis animasi (bisa disesuaikan) */
+}
+
+.image-animation:hover {
+  transform: translateY(-10px); /* Transformasi saat gambar di-hover (bisa disesuaikan) */
+}
