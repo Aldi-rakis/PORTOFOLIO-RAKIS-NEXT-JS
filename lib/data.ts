@@ -161,16 +161,16 @@ export const modelsData = [
     description: 'Successfully trained a dataset of images with 6 classes, achieving an accuracy of 95%, and a validation accuracy of 85%.',
     tags: ['Machine', 'Transfer', 'Learning'],
     imageUrl: modeldicoding,
-    url: 'https://github.com/chndrwali/Submission-ML-3-ImageClassification-Deployment',
-    githubUrl: 'https://github.com/chndrwali/restaurant-catalogueWPA',
+    url: '',
+    githubUrl: '',
   },
   {
     title: 'Model Image Classification 12 Classes',
     description: 'Successfully trained a dataset with 12 classes using the MobileNetV2 architecture and converted it into a TensorFlow.js model with an accuracy of 97%.',
     tags: ['Orbit', 'Model', 'Final', 'Project'],
     imageUrl: modelorbit,
-    url: 'https://github.com/chndrwali/model-klasifikasi-orbit',
-    githubUrl: 'https://github.com/chndrwali/restaurant-catalogueWPA',
+    url: '',
+    githubUrl: '',
   },
 ] as const;
 
