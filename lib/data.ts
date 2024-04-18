@@ -9,7 +9,7 @@ import exporttani from  '@/public/images/project/exporttani.webp';
 import sikaya from '@/public/images/project/sikaya.webp';
 import lmscheva from '@/public/images/project/lmscheva.webp';
 import bookshelf from '@/public/images/project/bookshelf.webp';
-import minangrancak '@/public/images/project/minangrancak.webp';
+import minangrancak from '@/public/images/project/minangrancak.webp';
 
 
 
