@@ -3,11 +3,15 @@ import { CgWorkAlt } from 'react-icons/cg';
 import { LuGraduationCap } from 'react-icons/lu';
 
 // import project
+
 import dimensi from '@/public/images/project/dimensi.webp';
 import exporttani from  '@/public/images/project/exporttani.webp';
 import sikaya from '@/public/images/project/sikaya.webp';
 import lmscheva from '@/public/images/project/lmscheva.webp';
 import bookshelf from '@/public/images/project/bookshelf.webp';
+import minangrancak '@/public/images/project/minangrancak.webp';
+
+
 
 import Image from 'next/image';
 
@@ -71,6 +75,15 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: 'Minang Rancak',
+    description:
+      'This is a web design project to take part in a web design competition held on the theme of cultural history. The website is created with HTML, CSS, JS and responsive design',
+    tags: ['HTML', 'css', 'Javascript'],
+    imageUrl: minangrancak,
+    url: 'https://aldi-rakis.github.io/Web-Design-Competition2024-MinangRancak/',
+    githubUrl: '',
+  },
   {
     title: 'Autodimension',
     description:
