@@ -91,7 +91,7 @@ export default function Intro() {
         <div className="flex items-center gap-2">
           <a
             className="flex items-center justify-center min-h-[44px] min-w-[44px] text-2xl rounded-full transition duration-300 ease-out bg-gradient-to-r from-[#0077B5] to-[#00669D] hover:from-[#00669D] hover:to-[#004E87] hover:text-white dark:from-[#004E87] dark:to-[#00669D] dark:hover:from-[#00669D] dark:hover:to-[#004E87] dark:hover:text-black"
-            href="www.linkedin.com/in/aldhi-raqiswandri05"
+            href="https://www.linkedin.com/in/adirakis/"
             target="_blank"
             aria-label="Linkedin Aldhi Raqiswandri"
           >
@@ -100,7 +100,7 @@ export default function Intro() {
 
           <a
             className="flex items-center justify-center min-h-[44px] min-w-[44px] text-2xl rounded-full transition duration-300 ease-out bg-gradient-to-r from-white to-gray-800 hover:from-gray-800 hover:to-gray-900 hover:text-white dark:from-gray-900 dark:to-gray-800 dark:hover:from-gray-800 dark:hover:to-slate-200 dark:hover:text-gray-950"
-            href="https://github.com/chndrwali"
+            href="https://github.com/Aldi-rakis"
             target="_blank"
             aria-label="Gihtub Aldhi Raqiswandri"
           >

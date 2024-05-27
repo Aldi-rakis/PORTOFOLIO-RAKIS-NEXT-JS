@@ -10,6 +10,7 @@ import sikaya from '@/public/images/project/sikaya.webp';
 import lmscheva from '@/public/images/project/lmscheva.webp';
 import bookshelf from '@/public/images/project/bookshelf.webp';
 import minangrancak from '@/public/images/project/minangrancak.webp';
+import ExpoloreEpic from '@/public/images/project/ExploreEpic.png';
 
 
 
@@ -31,6 +32,7 @@ import npm from '@/public/images/techstack/npm.webp';
 import vercel from '@/public/images/techstack/vercel.webp';
 import kaggle from '@/public/images/techstack/kaggle.webp';
 import googlecolab from '@/public/images/techstack/google-colab.webp';
+import laravel from '@/public/images/techstack/laravel.png';
 
 // import sertifikat
 import web from '@/public/images/sertifikat/web.webp';
@@ -75,6 +77,16 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: 'Explore Epic',
+    description:
+      'This is a web design project to take part in a web Design competition held on the theme of cultural history Indonesia. The website is created with HTML, CSS, JS and Responsive design',
+    tags: ['HTML', 'css', 'Javascript,jQuery'],
+    imageUrl: ExpoloreEpic,
+    url: 'https://culture-epic.netlify.app/',
+    githubUrl: '',
+  },
+ 
   {
     title: 'Minang Rancak',
     description:
@@ -194,6 +206,13 @@ export const skillsData = [
     type: 'Programming Language',
     imageUrl: python,
     url: 'https://www.python.org/',
+  },
+  {
+    id: 0,
+    name: 'Laravel',
+    type: 'Backend Framework',
+    imageUrl: laravel,
+    url: 'https://laravel.com/',
   },
   {
     id: 1,

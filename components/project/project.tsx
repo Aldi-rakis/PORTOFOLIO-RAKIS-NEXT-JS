@@ -1,24 +1,38 @@
 import { useRef } from 'react';
 import { projectsData } from '@/lib/data';
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import { motion, useAnimation } from 'framer-motion';
 import Link from 'next/link';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import { PhotoProvider, PhotoView } from 'react-photo-view';
+import 'react-photo-view/dist/react-photo-view.css';
 
 type ProjectProps = (typeof projectsData)[number];
 
 export default function Project({ title, description, tags, imageUrl, url, githubUrl }: ProjectProps) {
   const controls = useAnimation();
   const ref = useRef<HTMLDivElement>(null);
-
+ 
   const handleAnimation = async () => {
     await controls.start({ opacity: 1, scale: 1 });
   };
 
+  const imageSrc = typeof imageUrl === 'string' ? imageUrl : (imageUrl as StaticImageData).src;
+
+
   return (
     <motion.div ref={ref} initial={{ opacity: 0, scale: 0.8 }} animate={controls} transition={{ duration: 0.5 }} onViewportEnter={handleAnimation} className="bg-white dark:bg-gray-800 dark:text-white shadow-md p-4 flex flex-col rounded-xl">
       <div className="relative h-40 md:h-48 mb-4 overflow-hidden rounded-md">
-        <Image src={imageUrl} alt="Proyek yang saya kerjakan" layout="fill" objectFit="cover" quality={95} className="rounded-md image-animation" />
+
+      <PhotoProvider>
+      <PhotoView  src={imageSrc} >
+        <Image src={imageSrc} alt="Proyek yang saya kerjakan" layout="fill" objectFit="cover" quality={95} className="rounded-md image-animation cursor-pointer" />
+      </PhotoView>
+    </PhotoProvider>
+
+        {/* <Image src={imageUrl} alt="Proyek yang saya kerjakan" layout="fill" objectFit="cover" quality={95} className="rounded-md image-animation" /> */}
+      
+      
       </div>
       <div className="flex flex-col flex-grow">
         <div>
