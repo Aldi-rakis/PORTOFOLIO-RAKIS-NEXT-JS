@@ -31,8 +31,6 @@ import javascript from '@/public/images/techstack/javascript.webp';
 import tailwindcss from '@/public/images/techstack/tailwindcss.webp';
 import npm from '@/public/images/techstack/npm.webp';
 import vercel from '@/public/images/techstack/vercel.webp';
-import kaggle from '@/public/images/techstack/kaggle.webp';
-import googlecolab from '@/public/images/techstack/google-colab.webp';
 import laravel from '@/public/images/techstack/laravel.png';
 
 // import sertifikat
@@ -294,20 +292,8 @@ export const skillsData = [
     imageUrl: vercel,
     url: 'https://vercel.com/',
   },
-  {
-    id: 11,
-    name: 'Kaggle',
-    type: 'Dataset Platform',
-    imageUrl: kaggle,
-    url: 'https://www.kaggle.com/',
-  },
-  {
-    id: 12,
-    name: 'Google Colab',
-    type: 'Notebook IDE',
-    imageUrl: googlecolab,
-    url: 'https://colab.research.google.com/',
-  },
+ 
+
   {
     id: 13,
     name: 'Visual Studio Code',
@@ -329,7 +315,7 @@ const ID = {
   SKILLS_ME: 'Skill',
   ABOUT_ME: 'Tentang Saya',
   ABOUT_ME_DESC:
-    'Sebagai seorang Junior Frontend Developer dan Machine Learning Developer dengan pengalaman lebih dari 1 tahun, saya memiliki keahlian dalam beberapa teknologi modern, termasuk React.js, Next.js, Vite.js, dan Tailwind. Saya juga memiliki keterampilan dalam mengembangkan dataset menjadi model, serta pengalaman dengan Jest untuk pengujian unit dan Cypress untuk pengujian end-to-end (E2E). Saya sangat antusias dalam menciptakan antarmuka yang ramah pengguna dan intuitif untuk meningkatkan pengalaman pengguna. Saya selalu bersemangat untuk mempelajari teknologi baru. Saat ini, saya sedang mencari peluang magang atau pekerjaan penuh waktu sebagai Frontend Developer atau Machine Learning Developer.',
+   'Sebagai seorang Junior Frontend Developer dan Software Engineer dengan pengalaman lebih dari 1 tahun, saya memiliki keahlian dalam beberapa teknologi modern, termasuk React.js, Next.js, Vite.js, Tailwind, dan Laravel API. Saya juga memiliki pengalaman dalam pembuatan website dan perangkat lunak, baik di bagian frontend maupun backend.Saya sangat antusias dalam mengembangkan antarmuka yang ramah pengguna dan intuitif untuk meningkatkan pengalaman pengguna. Selain itu, saya memiliki pengalaman dalam mengerjakan proyek-proyek terkait pengembangan perangkat lunak. Saya selalu bersemangat untuk mempelajari teknologi baru.Saat ini, saya sedang mencari peluang magang atau pekerjaan penuh waktu sebagai Frontend Developer, Web Developer, atau posisi lain yang berkaitan dengan pengembangan perangkat lunak.',
   MY_PROJECT: 'Proyek dan Sertifikat Saya',
   MY_EXPERIENCE: 'Pengalaman Saya',
   SEND: 'Kirim Email',
@@ -339,7 +325,7 @@ const EN = {
   SKILLS_ME: 'My Skill',
   ABOUT_ME: 'About me',
   ABOUT_ME_DESC:
-    'As a Junior Frontend Developer and Machine Learning Developer with more than 1 year of experience, I have expertise in several modern technologies, including React.js, Next.js, Vite.js, and Tailwind. I also have skills in developing datasets into models, as well as experience with Jest for unit testing and Cypress for end-to-end (E2E) testing. I am passionate about creating user-friendly and intuitive interfaces to enhance the user experience. I am always eager to learn new technologies. Currently, I am looking for internship opportunities or full-time work as a Frontend Developer or Machine Learning Developer.',
+   'As a Junior Frontend Developer and Software Engineer with over 1 year of experience, I possess expertise in several modern technologies, including React.js, Next.js, Vite.js, Tailwind, and Laravel API. I also have experience in developing websites and software applications, both on the frontend and backend.I am passionate about creating user-friendly and intuitive interfaces to enhance user experience. Additionally, I have hands-on experience working on software development projects. I am always eager to learn new technologies.Currently, I am seeking internship or full-time opportunities as a Frontend Developer, Web Developer, or any other position related to software development.',
   MY_PROJECT: 'My Projects and Certificates',
   MY_EXPERIENCE: 'My Experience',
   SEND: 'Send Email',

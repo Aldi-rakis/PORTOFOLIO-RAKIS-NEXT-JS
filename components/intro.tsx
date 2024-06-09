@@ -45,14 +45,14 @@ export default function Intro() {
       <motion.h1 className="mb-4 mt-2 md:mb-10 md:mt-4 px-4 text-base md:text-4xl font-medium !leading-[1.5]">
         {language === 'EN' ? (
           <>
-            <TypeAnimation sequence={["I'am Aldhi Raqiswandri ", 2000, "I'am a Front End Developer", 2000, "I'am a Machine Learning Developer", 2000]} repeat={Infinity} />
+            <TypeAnimation sequence={["I'am Aldhi Raqiswandri ", 2000, "I'am a Front End Developer", 2000,"I'am a Software Enginner",2000, "I'am a Machine Learning Developer", 2000]} repeat={Infinity} />
             <p>
               Hi everyone <span>👋🏼</span>, welcome to my portfolio website
             </p>
           </>
         ) : (
           <>
-            <TypeAnimation sequence={["I'am Aldhi Raqiswandri ", 2000, "I'am a Front End Developer", 2000, "I'am a Machine Learning Developer", 2000]} repeat={Infinity} />
+            <TypeAnimation sequence={["I'am Aldhi Raqiswandri ", 2000, "I'am a Front End Developer", 2000, "I'am a Software Enginner",2000, "I'am a Machine Learning Developer", 2000]} repeat={Infinity} />
             <p>
               Halo semuanya <span>👋🏼</span>, selamat datang di situs portofolio saya
             </p>
