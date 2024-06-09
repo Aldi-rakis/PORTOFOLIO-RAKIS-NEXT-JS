@@ -11,6 +11,7 @@ import lmscheva from '@/public/images/project/lmscheva.webp';
 import bookshelf from '@/public/images/project/bookshelf.webp';
 import minangrancak from '@/public/images/project/minangrancak.webp';
 import ExpoloreEpic from '@/public/images/project/ExploreEpic.png';
+import Sipantai from '@/public/images/project/sipantai.jpg'
 
 
 
@@ -84,6 +85,15 @@ export const projectsData = [
     tags: ['HTML', 'css', 'Javascript,jQuery'],
     imageUrl: ExpoloreEpic,
     url: 'https://culture-epic.netlify.app/',
+    githubUrl: '',
+  },
+  {
+    title: 'Sipantai',
+    description:
+      'This is a website name "SIPANTAI" used for regional tourism and pawnshops for the people of the Pesisir Selatan Country. The application is made with responsive desktop and mobile pages. Developed with Laravel (Backend), React JS (Fornt-End)',
+    tags: ['React', 'Laravel', 'REST API'],
+    imageUrl: Sipantai,
+    url: 'https://sipantai.netlify.app/',
     githubUrl: '',
   },
  
