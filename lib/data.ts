@@ -12,6 +12,7 @@ import bookshelf from '@/public/images/project/bookshelf.webp';
 import minangrancak from '@/public/images/project/minangrancak.webp';
 import ExpoloreEpic from '@/public/images/project/ExploreEpic.png';
 import Sipantai from '@/public/images/project/sipantai.jpg'
+import foodcycle from '@/public/images/project/foodcycle.png'
 
 
 
@@ -72,10 +73,45 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+  {
+    title: 'PT. Adhikari Inovasi Indonesia ',
+    location: 'Bandung, Indonesia (onsite)',
+    description: 'As a Fullstack Developer with expertise in CodeIgniter and Laravel, I specialize in building dynamic and scalable web applications. strong background in backend and frontend development ..',
+    icon: React.createElement(LuGraduationCap),
+    date: 'Agust 2023 - Present',
+  },
+  {
+    title: 'Research STAS RG Telkom University',
+    location: 'Bandung, Indonesia (onsite)',
+    description: 'I learn as a Machine Fullstack and fullstack Developer with PHP Mysql,  in...',
+    icon: React.createElement(LuGraduationCap),
+    date: 'Oktober 2023 - Present',
+  },
+
+  {
+    title: 'PT Exportatani Indonesia',
+    location: 'Bogor, Indonesia (Remote)',
+    description: 'I learn make website for bussines company ...',
+    icon: React.createElement(CgWorkAlt),
+    date: 'Juli 2022 - Januari 2024',
+  },
+  
+
+
+  
  
 ] as const;
 
 export const projectsData = [
+  {
+    title: 'Food cycle ',
+    description:
+      'This is a web project to rescycle food waste in Indonesia. The application is made with responsive desktop and mobile pages. Developed with React JS (Front-End)',
+    tags: ['React Js', 'Tailwind', 'Javascript'],
+    imageUrl: foodcycle,
+    url: 'https://foodcyle.netlify.app/',
+    githubUrl: '',
+  },
   {
     title: 'Explore Epic',
     description:

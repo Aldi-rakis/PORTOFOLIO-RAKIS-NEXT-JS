@@ -24,9 +24,9 @@ export default function Project({ title, description, tags, imageUrl, url, githu
     <motion.div ref={ref} initial={{ opacity: 0, scale: 0.8 }} animate={controls} transition={{ duration: 0.5 }} onViewportEnter={handleAnimation} className="bg-white dark:bg-gray-800 dark:text-white shadow-md p-4 flex flex-col rounded-xl">
       <div className="relative h-40 md:h-48 mb-4 overflow-hidden rounded-md">
 
-      <PhotoProvider>
+      <PhotoProvider className='w-full h-full'>
       <PhotoView  src={imageSrc} >
-        <Image src={imageSrc} alt="Proyek yang saya kerjakan" layout="fill" objectFit="cover" quality={95} className="rounded-md image-animation cursor-pointer" />
+        <Image src={imageSrc} alt="Proyek yang saya kerjakan" layout="fill" objectFit="cover" quality={100} className="rounded-md image-animation cursor-pointer" />
       </PhotoView>
     </PhotoProvider>
 
