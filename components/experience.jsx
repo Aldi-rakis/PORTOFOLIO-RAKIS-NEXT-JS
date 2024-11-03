@@ -66,7 +66,7 @@ const TimelineContent = () => {
           <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
             {item.description}
             {item.description?.includes('learn') && (
-              <Link className="text-gray dark:text-white/75 underline ml-1" href={"https://www.linkedin.com/in/chndrwali/"} target="_blank" rel="noreferrer">
+              <Link className="text-gray dark:text-white/75 underline ml-1" href={"https://www.linkedin.com/in/aldirakis/"} target="_blank" rel="noreferrer">
                 see more
               </Link>
             )}
