@@ -13,6 +13,7 @@ import minangrancak from '@/public/images/project/minangrancak.webp';
 import ExpoloreEpic from '@/public/images/project/ExploreEpic.png';
 import Sipantai from '@/public/images/project/sipantai.jpg'
 import foodcycle from '@/public/images/project/foodcycle.png'
+import mijelin from '@/public/images/project/mijelin.png'
 
 
 
@@ -103,6 +104,24 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: 'Mijelin ',
+    description:
+'This is a pickup application for collecting used cooking oil for village communities. I made this project in fullstack with react js and Laravel technology',
+    tags: ['React Js', 'Tailwind', 'Javascript'],
+    imageUrl: mijelin,
+    url: 'https://mijelin.netlify.app/',
+    githubUrl: '',
+  },
+  {
+    title: 'Food cycle ',
+    description:
+      'This is a web project to rescycle food waste in Indonesia. The application is made with responsive desktop and mobile pages. Developed with React JS (Front-End)',
+    tags: ['React Js', 'Tailwind', 'Javascript'],
+    imageUrl: foodcycle,
+    url: 'https://foodcyle.netlify.app/',
+    githubUrl: '',
+  },
   {
     title: 'Food cycle ',
     description:
