@@ -8,6 +8,7 @@ import Link from 'next/link';
 import clsx from 'clsx';
 import { useActiveSectionContext } from '@/context/active-section-context';
 import { useLanguageContext } from '@/context/language-context';
+import Splachcursor from '../components/react-bit/Splashscreen'
 
 export default function Header() {
   const { activeSection, setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
@@ -61,6 +62,7 @@ export default function Header() {
           ))}
         </ul>
       </nav>
+      <Splachcursor />
       <div className="flex items-center">
         <p className="fixed md:top-10 top-5 pb-10 sm:hidden left-10 font-bold"> Aldhi Raqiswandri</p>
         <button aria-label="EN" role="button" className="fixed md:top-10 top-5 right-10" onClick={handleToggleLanguage}>
