@@ -62,7 +62,6 @@ export default function Header() {
           ))}
         </ul>
       </nav>
-      <Splachcursor />
       <div className="flex items-center">
         <p className="fixed md:top-10 top-5 pb-10 sm:hidden left-10 font-bold"> Aldhi Raqiswandri</p>
         <button aria-label="EN" role="button" className="fixed md:top-10 top-5 right-10" onClick={handleToggleLanguage}>

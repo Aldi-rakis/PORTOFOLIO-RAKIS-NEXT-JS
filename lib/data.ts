@@ -113,15 +113,7 @@ export const projectsData = [
     url: 'https://mijelin.netlify.app/',
     githubUrl: '',
   },
-  {
-    title: 'Food cycle ',
-    description:
-      'This is a web project to rescycle food waste in Indonesia. The application is made with responsive desktop and mobile pages. Developed with React JS (Front-End)',
-    tags: ['React Js', 'Tailwind', 'Javascript'],
-    imageUrl: foodcycle,
-    url: 'https://foodcyle.netlify.app/',
-    githubUrl: '',
-  },
+ 
   {
     title: 'Food cycle ',
     description:
@@ -370,7 +362,7 @@ const ID = {
   SKILLS_ME: 'Skill',
   ABOUT_ME: 'Tentang Saya',
   ABOUT_ME_DESC:
-   'Sebagai seorang Junior Frontend Developer dan Software Engineer dengan pengalaman lebih dari 1 tahun, saya memiliki keahlian dalam beberapa teknologi modern, termasuk React.js, Next.js, Vite.js, Tailwind, dan Laravel API. Saya juga memiliki pengalaman dalam pembuatan website dan perangkat lunak, baik di bagian frontend maupun backend.Saya sangat antusias dalam mengembangkan antarmuka yang ramah pengguna dan intuitif untuk meningkatkan pengalaman pengguna. Selain itu, saya memiliki pengalaman dalam mengerjakan proyek-proyek terkait pengembangan perangkat lunak. Saya selalu bersemangat untuk mempelajari teknologi baru.Saat ini, saya sedang mencari peluang magang atau pekerjaan penuh waktu sebagai Frontend Developer, Web Developer, atau posisi lain yang berkaitan dengan pengembangan perangkat lunak.',
+  'Sebagai Junior Fullstack Developer dan Software Engineer dengan pengalaman lebih dari 1 tahun, saya memiliki keahlian dalam beberapa teknologi modern, termasuk React.js, Next.js, Vite.js, Laravel, CI3 dan pengmabangan Backend API. Saya juga memiliki pengalaman dalam mengembangkan situs web dan aplikasi perangkat lunak, baik di frontend maupun backend. Saya bersemangat menciptakan antarmuka yang ramah pengguna dan intuitif untuk meningkatkan pengalaman pengguna. Selain itu, saya memiliki pengalaman langsung mengerjakan proyek pengembangan perangkat lunak. Saya selalu bersemangat untuk mempelajari teknologi baru. Saat ini, saya sedang mencari peluang magang atau penuh waktu sebagai Pengembang Fullstack, Pengembang Web, atau posisi lain yang terkait dengan pengembangan perangkat lunak.',
   MY_PROJECT: 'Proyek dan Sertifikat Saya',
   MY_EXPERIENCE: 'Pengalaman Saya',
   SEND: 'Kirim Email',
@@ -380,7 +372,7 @@ const EN = {
   SKILLS_ME: 'My Skill',
   ABOUT_ME: 'About me',
   ABOUT_ME_DESC:
-   'As a Junior Frontend Developer and Software Engineer with over 1 year of experience, I possess expertise in several modern technologies, including React.js, Next.js, Vite.js, Tailwind, and Laravel API. I also have experience in developing websites and software applications, both on the frontend and backend.I am passionate about creating user-friendly and intuitive interfaces to enhance user experience. Additionally, I have hands-on experience working on software development projects. I am always eager to learn new technologies.Currently, I am seeking internship or full-time opportunities as a Frontend Developer, Web Developer, or any other position related to software development.',
+  'As a Junior Fullstack Developer and Software Engineer with more than 1 year of experience, I have expertise in several modern technologies, including React.js, Next.js, Vite.js, Laravel, CI3 and Backend API development. I also have experience in developing websites and software applications, both frontend and backend. I am passionate about creating user-friendly and intuitive interfaces to enhance the user experience. Additionally, I have hands-on experience working on software development projects. I am always eager to learn new technologies. Currently, I am looking for an internship or full-time opportunity as a Fullstack Developer, Web Developer, or other position related to software development.',
   MY_PROJECT: 'My Projects and Certificates',
   MY_EXPERIENCE: 'My Experience',
   SEND: 'Send Email',
